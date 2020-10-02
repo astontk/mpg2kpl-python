@@ -20,10 +20,9 @@ def mpg2kpl(mpg):
 
 # do the simplest thing that could possibly work
 # output 25mpg value in kpl
-mpg = input("What is the MPG")
+usermpg = input("What is the MPG")
 # convert the input into a numeric (float) value
-mpg = float(mpg)
+usermpg = float(usermpg)
 
 # output the converted value rounded to two digits
-print(round(mpg2kpl(mpg), 2),"kpl")
- 
+print(round(mpg2kpl(usermpg), 2),"kpl")
